@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class J01011 {
+public class J01011_BoiSoChung_UocSoChung {
 
     private static long gcd(long a, long b) {
         if(b == 0)

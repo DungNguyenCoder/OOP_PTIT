@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class J01006 {
+public class J01006_TinhSoFibonacci {
     private static long[] f = new long[100];
 
     private static void fibo() {

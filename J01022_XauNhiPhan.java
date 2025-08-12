@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class J01022 {
+public class J01022_XauNhiPhan {
     private static long[] f = new long[93];
 
     private static void fibo() {

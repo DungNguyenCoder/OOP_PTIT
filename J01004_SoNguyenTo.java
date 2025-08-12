@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class J01004 {
+public class J01004_SoNguyenTo {
     private static boolean nt(int n) {
         for(int i = 2; i <= Math.sqrt(n); i++) {
             if(n % i == 0) {

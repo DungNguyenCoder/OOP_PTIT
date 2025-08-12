@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class J01007 {
+public class J01007_KiemTraSoFibonacci {
     private static long[] f = new long[100];
 
     private static void fibo() {

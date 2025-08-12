@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class J01021 {
+public class J01021_TinhLuyThua {
     private static final int mod = 1000000007;
 
     private static long binpow(long a, long b) {
