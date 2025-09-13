@@ -1,7 +1,6 @@
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
-import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
@@ -20,7 +19,7 @@ public class J07022_LoaiBoSoNguyen {
 
     public static void main(String[] args) throws IOException {
         List<String> list = new ArrayList<>();
-        try(BufferedReader br = new BufferedReader(new FileReader("DATA.in"))) {
+        try(BufferedReader br = new BufferedReader(new FileReader("KHACHHANG.in"))) {
             String line;
             while((line = br.readLine()) != null) {
                 StringTokenizer st = new StringTokenizer(line);

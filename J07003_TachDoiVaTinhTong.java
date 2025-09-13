@@ -5,7 +5,7 @@ import java.math.BigInteger;
 
 public class J07003_TachDoiVaTinhTong {
     public static void main(String[] args) throws IOException {
-        try(BufferedReader br = new BufferedReader(new FileReader("DATA.in"))) {
+        try(BufferedReader br = new BufferedReader(new FileReader("KHACHHANG.in"))) {
             String s;
             s = br.readLine().trim();
             while(s.length() != 1) {

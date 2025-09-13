@@ -6,7 +6,7 @@ import java.util.TreeMap;
 
 public class J07004_SoKhacNhauTrongFile1 {
     public static void main(String[] args) throws IOException {
-        try(BufferedReader br = new BufferedReader(new FileReader("DATA.in"))) {
+        try(BufferedReader br = new BufferedReader(new FileReader("KHACHHANG.in"))) {
             TreeMap<Integer, Integer> mp = new TreeMap<>();
             String line;
             while((line = br.readLine()) != null) {

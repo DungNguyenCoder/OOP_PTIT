@@ -34,7 +34,7 @@ public class J07017_LopPair {
     }
 
     public static void main(String[] args) throws IOException {
-        Scanner sc = new Scanner(new File("DATA.in"));
+        Scanner sc = new Scanner(new File("KHACHHANG.in"));
         int t = sc.nextInt();
         while(t-->0){
             int n = sc.nextInt();

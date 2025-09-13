@@ -5,7 +5,7 @@ import java.util.StringTokenizer;
 
 public class J07002_TinhTong {
     public static void main(String[] args) throws IOException {
-        try(BufferedReader br = new BufferedReader(new FileReader("DATA.in"))) {
+        try(BufferedReader br = new BufferedReader(new FileReader("KHACHHANG.in"))) {
             String line;
             long sum = 0;
             while ((line = br.readLine()) != null) {

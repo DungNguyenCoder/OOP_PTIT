@@ -7,7 +7,7 @@ import java.util.List;
 public class J07010_DanhSachSinhVienTrongFile2 {
     public static void main(String[] args) throws IOException {
         List<SV> sv = new ArrayList<>();
-        try(BufferedReader br = new BufferedReader(new FileReader("DATA.in"))) {
+        try(BufferedReader br = new BufferedReader(new FileReader("KHACHHANG.in"))) {
             int t = Integer.parseInt(br.readLine());
             for(int test = 1; test <= t; test++) {
                 SV sv1 = new SV(br.readLine(), br.readLine(), br.readLine(), Double.parseDouble(br.readLine()));

@@ -13,7 +13,7 @@ public class J07029_SoNguyenToLonNhatTrongFile {
         return n > 1;
     }
     public static void main(String[] args) throws IOException, ClassNotFoundException {
-        ObjectInputStream ois = new ObjectInputStream(new FileInputStream("DATA.in"));
+        ObjectInputStream ois = new ObjectInputStream(new FileInputStream("KHACHHANG.in"));
         List<Integer> l = (ArrayList<Integer>) ois.readObject();
 
         TreeMap<Integer, Integer> mp = new TreeMap<>();

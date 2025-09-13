@@ -26,7 +26,7 @@ public class J07008_DayConTangDan {
     }
 
     public static void main(String[] args) throws IOException {
-        try (BufferedReader br = new BufferedReader(new FileReader("DATA.in"))) {
+        try (BufferedReader br = new BufferedReader(new FileReader("KHACHHANG.in"))) {
             n = Integer.parseInt(br.readLine());
             a = new int[n];
             StringTokenizer st = new StringTokenizer(br.readLine());
